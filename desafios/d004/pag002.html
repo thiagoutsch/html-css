@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+    <style>
+        div{
+            color:aqua
+        }
+        div:hover>p{
+            background-color: purple;
+        }
+        div::after{
+            content:'[teste04]';
+        }
+        div:hover{
+            background-color: black;
+        }
+        .terceiro::after{
+            content: 'oi';
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="primeiro">1</div>
+    <div>2</div>
+    <div class="terceiro">3
+        <p>KKKKKKKK</p>
+    </div>
+    
+    <p><a href="index.html">Voltar para primeira página</a></p>
+</body>
+</html>

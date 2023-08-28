@@ -1,0 +1,143 @@
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1500px;
+}
+
+.escrita{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,#39CD7B, #207144);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+p#p-menor{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+article>li{
+    display: block;
+    color: black;
+    
+}
+
+li{
+    display: inline-block;
+    cursor: pointer;
+    color: #90B09D;
+    padding: 2px;
+    margin-left: 30px;
+    border: 1px solid transparent;
+}
+
+li:hover{
+    background-color: darkgreen;
+    color: white;
+    transition: 0.4s all;
+}
+
+a{
+    color: #90B09D;
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+
+main{
+    background-color: white;
+    margin:0px 100px 20px 100px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1{
+    font-family:'fontezinha';
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(0, 72, 0);
+}
+
+p{
+    text-indent: 40px;
+}
+p>a{
+    background-color: lightgreen;
+    color: green;
+}
+h2{
+    font-family: 'fontezinha';
+    font-size: 20px;
+    background-color: #48c27f;
+    color: darkgreen;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+img{
+    display: flex;
+    width: 100%;
+}
+
+.imagem-p{
+        width: 500px;
+        height: 400px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+}
+
+iframe{
+    width: 500px;
+    height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+h3{
+    font-family: 'fontezinha';
+    font-size: 20px;
+    background-color: #48c27f;
+    color: darkgreen;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+article{
+    background-color: #C5EBD6;
+    border-radius: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    background-color:#1d663e;
+    color: white;
+
+}
+
+
+
