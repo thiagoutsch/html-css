@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro Formulário sem CSS:</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required maxlength="40" minlength="5" placeholder="Nome Completo:">
+            </p>
+<p>
+    
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" placeholder="email com @">
+</p>
+
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" placeholder="seu número" maxlength="12">
+            </p>
+
+            <p>Sexo:</p>
+            <input type="radio" name="sexo" id="imasc"><label for="imasc">Masculino</label> <br>
+            <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados do curso:</legend>
+            <label for="imedia">Média na Faculdade:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1"> <br> <br>
+
+            <label for="idat">Data de Conclusão do Curso:</label>
+            <input type="date" name="data" id="idat">
+        </fieldset>
+        <fieldset>
+            <legend>Principais linguagens:</legend>
+            <input type="checkbox" name="html" id="ihtml"> <label for="ihtml">HTML</label>
+            <input type="checkbox" name="css" id="icss"> <label for="icss">CSS</label>
+            <input type="checkbox" name="javascript" id="ijavas"> <label for="ijavas">JavaScript</label>
+        </fieldset>
+        
+                <label for="imsg">Mensagem: </label> <br>
+                <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem.."></textarea> <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

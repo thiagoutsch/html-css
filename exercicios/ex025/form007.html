@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 7</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="Estado" id="iest">
+                <option value=""select>---- Escolha ----</option>
+                <option value="MG">Minas Geras</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="São Paulo">São Paulo</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Adm</option>
+                <option>Ciencia Da Comp</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem.."></textarea>
+        </p>
+    </form>
+</body>
+</html>
